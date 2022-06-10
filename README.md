@@ -9,7 +9,7 @@ With global warming increasing at a faster and faster rate every year, our team 
 
 Languages
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/python-%231572B6.svg?style=flat-square&logo=python&logoColor=white)
 
 Frameworks
 
@@ -46,7 +46,7 @@ After the prototype was created, we tweeked the UI/UX to improve the user experi
 <li>https://github.com/BruteYapper</li>
 <li>https://github.com/AryaanSheth</li>
 <li>https://github.com/williamdual</li>
-<li>TBD</li>
+<li>https://github.com/Friendly-Neighborhood-Programmer</li>
 </ul>
 
 
