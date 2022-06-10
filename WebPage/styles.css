@@ -7,13 +7,29 @@ body {
     background-attachment: fixed;
 }
 
-#logo {}
+.header {
+    margin: auto;
+    width: 100%;
+
+
+    background-color: #20B2AB
+}
+
+#logo {
+    width: 101px;
+    /*336*/
+    height: 100px;
+    /*334*/
+    z-index: 2;
+    position: relative;
+}
+
 
 #die-bar {
-    margin: 5% 25% 0%;
-    width: 50%;
+    margin: 5% 32.5% 0%;
+    width: 35%;
     height: 50%;
-
+    transform: scale(1.5);
     /* appearance: rgb(0, 0, 0); */
     accent-color: rgb(48, 50, 116);
     mix-blend-mode: hard-light;
@@ -22,15 +38,6 @@ body {
     display: block;
 }
 
-#die-bar::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #04AA6D;
-    cursor: pointer;
-}
 
 #year-num {
     margin: 1% auto 0%;

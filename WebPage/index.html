@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
     <title>Days Left</title>
+    <!-- this is where header elements start  -->
+    <div class="header">
+        <img src="imgs/logo.png" id="logo" alt="logo of earth" />
+    </div>
 </head>
 
 <body>
-    <div>
-        <input type="range" id="die-bar" min="1900" max="2100" value="1900" />
+    <div class="slider-container">
+        <input type="range" id="die-bar" class="slider" min="1900" max="2100" value="1900" />
     </div>
     <h1 id="year-num">1900</h1>
     <h4 id="year-title">YEAR</h4>
