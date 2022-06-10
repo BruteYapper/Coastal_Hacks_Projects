@@ -1,0 +1,64 @@
+body {
+    background: rgb(10, 12, 25);
+    background: linear-gradient(to bottom, rgb(10, 12, 25), rgb(17, 17, 98, 1), rgb(16, 141, 147));
+    height: 100%;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo {}
+
+#die-bar {
+    margin: 5% 25% 0%;
+    width: 50%;
+    height: 50%;
+
+    /* appearance: rgb(0, 0, 0); */
+    accent-color: rgb(48, 50, 116);
+    mix-blend-mode: hard-light;
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.4);
+    border-radius: 45px;
+    display: block;
+}
+
+#die-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+#year-num {
+    margin: 1% auto 0%;
+    padding: auto;
+    width: 50%;
+
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 110px;
+
+    color: rgb(213, 213, 213);
+}
+
+#year-title {
+    margin: 0% auto 10%;
+    width: 50%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+
+    color: rgb(213, 213, 213);
+}
+
+#facts {}
