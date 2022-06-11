@@ -41,6 +41,15 @@ body {
 }
 
 
+#donate{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(26, 22, 36);
+}
+
 #year-num {
     margin: 1% auto 0%;
     padding: auto;

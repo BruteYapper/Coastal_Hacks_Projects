@@ -2,7 +2,7 @@ let bar = document.getElementById("die-bar")
 let yearText = document.getElementById("year-num")
 let fact = document.getElementById("facts-text")
 
-document.addEventListener("load", updateFact(1920), bar.value = 1920, updateYear());
+document.addEventListener("load", updateFact(1900), bar.value = 1900, updateYear());
 
 bar.addEventListener("input", updateYear) //"input" updates while draging, "change" updates when realesed
 
@@ -14,7 +14,7 @@ function updateYear() {
 function updateFact(year) {
     let blurb = " ";
     if (year == 1900) {
-        blurb = "your moms a hoe";
+        blurb = "And so it begins...";
     }
     else if (year == 1969 || year == 2069) {
         blurb = "nice";
@@ -23,7 +23,7 @@ function updateFact(year) {
         blurb = "Due to Ocean Acidification, worldwide coral growth has been cut in half";
     }
     else if (year == 2100) {
-        blurb = "Tokyo, Mumbai, New York, and others are all compleatly underwater";
+        blurb = "Coastal cities are Now in Danger of Being Destroyed by the Ocean";
     }
     else {
         if (year < new Date().getFullYear()) //if its in the past
