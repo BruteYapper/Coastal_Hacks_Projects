@@ -45,7 +45,7 @@ body {
     width: 50%;
 
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', georgia;
     font-style: normal;
     font-weight: 700;
     font-size: 90px;
@@ -55,10 +55,10 @@ body {
 }
 
 #year-title {
-    margin: 0% auto 10%;
+    margin: 0% auto 5%;
     width: 50%;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', georgia;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -68,4 +68,64 @@ body {
     color: rgb(213, 213, 213);
 }
 
-#facts {}
+#facts-container {
+    mix-blend-mode: soft-light;
+    margin: 0% auto 0%;
+    width: 17.5%;
+    height: 55px;
+
+    transform: scale(1.5);
+    background-color: rgb(213, 213, 213);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#facts-text {
+    margin: auto auto 0%;
+    padding: 1% 1%;
+    font-size: 20px;
+    font-family: Georgia 'Times New Roman' Times serif;
+    text-align: center;
+    vertical-align: middle;
+    flex: 0 0 12px;
+    color: rgb(32, 32, 32);
+
+}
+
+@media (max-width: 1680px) {
+
+    /* triggers if screen is smallish */
+    #facts-container {
+        transform: scale(2.0);
+    }
+
+    #facts-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    /* triggers if screen is small */
+    #facts-container {
+        transform: scale(2.0);
+    }
+
+    #facts-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    /* triggers if mobie */
+    #facts-container {
+        margin-top: 15%;
+        transform: scale(3.0);
+    }
+
+    #facts-text {
+        font-size: 10px;
+    }
+}
