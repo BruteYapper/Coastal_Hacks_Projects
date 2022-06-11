@@ -40,10 +40,8 @@
 }
 
 .charity-discription {
-    margin-left: 1%;
-    /* ^bassically this is like  a "tab" */
-    padding-left: 1%;
-    font-size: 24px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
     text-align: left;
     display: inline;
     color: rgb(213, 213, 213)
