@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto+Mono:wght@700&display=swap');
+
+#title {
+    margin: 1% auto 5%;
+    padding: auto;
+    width: 50%;
+
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+
+
+    color: rgb(213, 213, 213);
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
+}
+
+.charity {
+    margin: 1% auto 8%;
+    padding: auto;
+    width: 50%;
+    display: block;
+
+    height: 135px;
+    width: 40%;
+}
+
+.charity-image {
+    float: left;
+    margin-right: 1.5%;
+}
+
+.charity-discription {
+    margin-left: 1%;
+    /* ^bassically this is like  a "tab" */
+    padding-left: 1%;
+    font-size: 24px;
+    text-align: left;
+    display: inline;
+    color: rgb(213, 213, 213)
+}
+
+a:visited {
+    /* here just in case */
+    text-decoration: none;
+    color: rgb(213, 213, 213);
+}
