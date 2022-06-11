@@ -49,5 +49,10 @@ After the prototype was created, we tweeked the UI/UX to improve the user experi
 <li>https://github.com/Friendly-Neighborhood-Programmer</li>
 </ul>
 
-
+<h2 align="center">Sources</h2>
+IEEE protocol
+<ul>
+    <li>https://www.greenroofs.com/2022/03/02/these-36-world-cities-will-be-underwater-first/</li>
+    <li>https://climatechange.chicago.gov/climate-change-science/future-climate-change</li>
+</ul>
 
