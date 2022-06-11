@@ -8,7 +8,7 @@ const app = express();
 app.listen(3000);
 
 
-app.use(express.static(path.__dirname + "../WebPage"));
+app.use(express.static(path.join(__dirname, "../public")));
 
 
 
