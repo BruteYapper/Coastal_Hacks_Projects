@@ -1,6 +1,7 @@
 body {
     background: rgb(10, 12, 25);
     background: linear-gradient(to bottom, rgb(10, 12, 25), rgb(17, 17, 98, 1), rgb(16, 141, 147));
+
     height: 100%;
     margin: 0%;
     background-repeat: no-repeat;
@@ -90,6 +91,19 @@ body {
     vertical-align: middle;
     flex: 0 0 12px;
     color: rgb(32, 32, 32);
+
+}
+
+#earth-container {
+    position: relative;
+    margin: 2% auto 0;
+    width: 50%;
+    transform: translateY(-10%);
+}
+
+#earth {
+    position: absolute;
+    width: 50vw;
 
 }
 

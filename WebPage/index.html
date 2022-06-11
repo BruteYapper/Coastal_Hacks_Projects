@@ -14,8 +14,8 @@
     </div>
 </head>
 
-<body>
-    <div class="slider-container">
+<body scroll="no" style="overflow: hidden">
+    <div class="slider-container" style="overflow: hidden">
         <input type="range" id="die-bar" class="slider" min="1900" max="2100" value="1900" />
     </div>
     <h1 id="year-num">1969</h1>
@@ -24,6 +24,9 @@
         <p id="facts-text">
             Lore Epsum Gaffle keffle griba le, midus topca le me no meda hagal
         </p>
+    </div>
+    <div id="earth-container">
+        <img src="imgs/Earth-In-Progress.png" id="earth" alt="earth" />
     </div>
     <script src="behaviour.js"></script>
 </body>

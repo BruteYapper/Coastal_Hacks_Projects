@@ -2,7 +2,7 @@ let bar = document.getElementById("die-bar")
 let yearText = document.getElementById("year-num")
 let fact = document.getElementById("facts-text")
 
-document.addEventListener("load", updateFact(), updateYear());
+document.addEventListener("load", updateFact(1920), bar.value = 1920, updateYear());
 
 bar.addEventListener("input", updateYear) //"input" updates while draging, "change" updates when realesed
 
