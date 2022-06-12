@@ -6,7 +6,7 @@ const path = require("path");
 
 const app = express();
 
-app.listen(3000);
+app.listen(80);
 
 
 app.use(express.static(path.join(__dirname, "../public")));
