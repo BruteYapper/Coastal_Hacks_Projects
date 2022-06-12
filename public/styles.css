@@ -41,7 +41,7 @@ body {
 }
 
 
-#donate{
+#donate {
     float: right;
     margin-right: 15px;
     margin-top: 10px;
@@ -90,16 +90,24 @@ body {
     justify-content: center;
     align-items: center;
 } */
+#fact-popup {
+    margin: auto auto 0%;
+    display: block;
+    padding-top: 3%;
+}
 
 #facts-text {
     margin: auto auto 0%;
-    padding: 4% 1%;
+    padding: 0% 1%;
+    padding-top: 1%;
+    padding-bottom: 4%;
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     vertical-align: middle;
     flex: 0 0 12px;
     color: rgb(213, 213, 213);
+
 
 }
 
