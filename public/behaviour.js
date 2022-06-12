@@ -54,6 +54,7 @@ function rotateEarth(year) {
     earth.style.transform = "rotate(" + rotAmt + "deg)";
 }
 
+<<<<<<< HEAD
 function raiseWater(year){
     let raiseAmt = -(1900 - year) * (460/200)
     waterLevel.style.top = -raiseAmt+"px";
@@ -62,6 +63,16 @@ function raiseWater(year){
         person.src = "Imgs/person-dead.png ";
     }
     else{
+=======
+function raiseWater(year) {
+    let raiseAmt = -(1900 - year) * (460 / 200)
+    waterLevel.style.top = -raiseAmt + "px";
+    waterLevel.style.height = raiseAmt + "px";
+    if (year >= 2083) {
+        person.src = "Imgs/person-dead.png ";
+    }
+    else {
+>>>>>>> parent of eb57784... last commit 2
         person.src = "Imgs/person.png";
     }
 }
