@@ -1,5 +1,11 @@
 <h1 align="center">Coastal Hacks</h1>
 
+<h2 align="center">Published Website</h2>
+<p align ="center"><a href="http://www.daysleft.co">http://www.daysleft.co</a></p>
+
+<br>
+
+
 <h2 align="center">Our Idea</h2>
 With global warming increasing at a faster and faster rate every year, our team sought to create a project that gave light to the issue in a creative way that not only informed individuals about our every worsening situation but provided resources to help counter it.
 
@@ -53,6 +59,7 @@ After the prototype was created, we tweeked the UI/UX to improve the user experi
 <ul>
     <li>https://www.greenroofs.com/2022/03/02/these-36-world-cities-will-be-underwater-first/</li>
     <li>https://climatechange.chicago.gov/climate-change-science/future-climate-change</li>
-    <li>https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting#:~:text=Even%20if%20we%20significantly%20curb,the%20Arctic%20is%20already%20gone.</li>
+    <li>https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting#:~:text=Even%20if%20we%20significantly%20curb,the%20Arctic%20is%20already%20gone</li>
+    <li>https://history.aip.org/climate/timeline.htm</li>
 </ul>
 

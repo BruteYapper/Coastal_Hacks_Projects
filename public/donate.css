@@ -23,7 +23,7 @@ body{
     font-size: 90px;
 
 
-    color: rgb(213, 213, 213);
+    color: rgb(174, 179, 209);
 }
 
 #gallery {
@@ -55,11 +55,11 @@ body{
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     display: inline;
-    color: rgb(213, 213, 213)
+    color: rgb(174, 179, 209);
 }
 
 a:visited {
     /* here just in case */
     text-decoration: none;
-    color: rgb(213, 213, 213);
+    color: rgb(174, 179, 209);
 }
