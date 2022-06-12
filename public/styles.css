@@ -3,7 +3,8 @@
 body {
     background: rgb(10, 12, 25);
     background: linear-gradient(to bottom, rgb(10, 12, 25), rgb(17, 17, 98, 1), rgb(16, 141, 147));
-
+    background-image: url("Imgs/Star\ Background-AI-Small.png");
+    
     height: 100%;
     margin: 0%;
     background-repeat: no-repeat;
@@ -14,7 +15,7 @@ body {
     margin: auto;
     width: 100%;
     height: 55px;
-    background-color: #e9e9e9
+    background-color: rgb(174,179,209)
 }
 
 #logo {
@@ -62,7 +63,7 @@ body {
     font-size: 90px;
     line-height: 110px;
 
-    color: rgb(213, 213, 213);
+    color: rgb(174,179,209);
 }
 
 #year-title {
@@ -74,7 +75,7 @@ body {
     font-size: 30px;
     line-height: 37px;
     text-align: center;
-    color: rgb(213, 213, 213);
+    color: rgb(174,179,209);
 }
 
 /* #facts-container {
@@ -93,7 +94,7 @@ body {
 #fact-popup {
     margin: auto auto 0%;
     display: block;
-    padding-top: 3%;
+    padding-top: 2%;
 }
 
 #facts-text {
@@ -106,7 +107,7 @@ body {
     text-align: center;
     vertical-align: middle;
     flex: 0 0 12px;
-    color: rgb(213, 213, 213);
+    color: rgb(174,179,209);
 
 
 }
@@ -122,6 +123,45 @@ body {
     position: absolute;
     width: 50vw;
 
+}
+
+#water-level {
+    z-index: 2;
+    position: relative;
+    margin: 25% 5% 0%;
+    width: 14%;
+    height: 460px;
+    background-color: rgba(40, 86, 211, 0.4);
+    stroke: rgba(255, 255, 255, 0.5);
+}
+
+#person {
+    z-index: 0;
+    margin: -0.8% 7.5% 0%;
+    height: 45%;
+    position: absolute;
+}
+
+#drown-tank {
+    z-index: 3;
+    position: absolute;
+    margin: -24px 90px 0%;
+    height: 460px;
+    width: 14%;
+    border: 5px solid rgb(174,179,209);
+    border-radius: 20px;
+}
+
+@media (max-width: 1919px){
+    #water-level {
+        visibility: hidden
+    }
+    #person {
+        visibility: hidden
+    }
+    #drown-tank{
+        visibility: hidden;
+    }
 }
 
 @media (max-width: 1680px) {

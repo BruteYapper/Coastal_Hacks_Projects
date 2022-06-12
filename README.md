@@ -53,5 +53,6 @@ After the prototype was created, we tweeked the UI/UX to improve the user experi
 <ul>
     <li>https://www.greenroofs.com/2022/03/02/these-36-world-cities-will-be-underwater-first/</li>
     <li>https://climatechange.chicago.gov/climate-change-science/future-climate-change</li>
+    <li>https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting#:~:text=Even%20if%20we%20significantly%20curb,the%20Arctic%20is%20already%20gone.</li>
 </ul>
 
