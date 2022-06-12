@@ -69,7 +69,7 @@ function raiseWater(year) {
     let raiseAmt = -(1900 - year) * (460 / 200)
     waterLevel.style.top = -raiseAmt + "px";
     waterLevel.style.height = raiseAmt + "px";
-    if (year >= 2085) {
+    if (year >= 2083) {
         person.src = "Imgs/person-dead.png ";
     }
     else {
