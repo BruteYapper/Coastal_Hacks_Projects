@@ -70,10 +70,10 @@ function raiseWater(year) {
     waterLevel.style.top = -raiseAmt + "px";
     waterLevel.style.height = raiseAmt + "px";
     if (year >= 2083) {
-        person.src = "Imgs/person-dead.png ";
+        person.src = "Imgs/Person-dead.png ";
     }
     else {
-        person.src = "Imgs/person.png";
+        person.src = "Imgs/Person.png";
     }
 }
 
